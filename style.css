@@ -143,8 +143,14 @@ main{
  }
  .online-title{
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.4rem;
     margin-top: 40px;
+}
+.online-color{
+    background: linear-gradient(180deg, #C07F00 0%, #4C3D3D 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .online-description{
     text-align: center;
@@ -165,7 +171,7 @@ main{
     font-family: normal;
     margin-top: 10px;
     text-align: left;
-    margin-left: 45%;
+    margin-left: 15%;
 }
 .img-text-2{
     color: rgb(84, 84, 84);
@@ -173,7 +179,7 @@ main{
     font-family: normal;
     margin-top: 10px;
     text-align: left;
-    padding-left: 41%;
+    padding-left: 15%;
     
 }
 .img-text-3{
@@ -182,7 +188,7 @@ main{
     font-family: normal;
     margin-top: 10px;
     text-align: left;
-    margin-left: 37%;
+    margin-left: 15%;
 }
 .img-text-4{
     color: rgb(84, 84, 84);
@@ -190,33 +196,75 @@ main{
     font-family: normal;
     margin-top: 10px;
     text-align: left;
-    margin-left: 31%;
+    margin-left: 15%;
  }
 .img-1{
     height: 90%;
     width: 70%;
-    margin-left: 45%;
+    /* margin-left: 0%; */
 }
 .img-2{
     height: 90%;
     width: 70%;
-    margin-left: 40%;
+    /* margin-left: 0%; */
 }
 .img-3{
     height: 90%;
     width: 70%;
-    margin-left: 35%;
+    /* margin-left: 0%; */
 }
 .img-4{
     height: 90%;
     width: 70%;
-    margin-left: 30%;
+    /* margin-left: 0%; */
+}
+
+/* instantly play section styles */
+.play-instantly{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 15%;
+    gap: 100px;
+}
+.instant-contant{
+    margin-right: 100px;
+    margin-top: 25%;
+
+}
+.instant-title{
+    text-align: right;
+    font-size: 40px;
+    font-weight: 700;
+}
+.instant-color{
+    background: linear-gradient(180deg, #C07F00 0%, #4C3D3D 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.instant-text{
+    width: 350px;
+    text-align: right;
+    margin-left: 25%;
+    margin-top: 3%;
+   font-family: normal;
+   color: #757575;
+}
+.instant-img-1{
+    width: 75%;
+    height: 80%;
+}
+.instant-img-2{
+    width: 35%;
+    position: relative;
+    bottom: 180px;
+    right: 100px;
 }
 
 /* button section styles */
 
 .btn-section{
-    margin : 150px 0 150px;
+    margin : 150px 0 130px;
 
 }
 .img-section-1{
@@ -259,5 +307,4 @@ main{
     gap: 3%
     margin-left: 5%;
     margin-top: 3%;
-
 }
