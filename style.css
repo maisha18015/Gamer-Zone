@@ -119,6 +119,12 @@ main{
     color: #ffff;
     cursor: pointer;
 }
+.banner-img{
+    width: 50%;
+}
+.Imageee{
+    width: 100%;
+}
 .fa-circle-play{
     color: #C07F00;
 }
@@ -127,4 +133,82 @@ main{
 }
 .fa-user-group{
     color: #C07F00;
+}
+ /* online section style */
+ .online-contant{
+    padding: 10px 10px 0;
+    margin: 0 auto;
+    /* margin-right: 5%; */
+
+ }
+ .online-title{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 40px;
+}
+.online-description{
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 20px;
+    font-family: normal;
+    color: rgb(84, 84, 84);
+}
+.online-all-img{
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+
+}
+.img-text{
+    color: rgb(84, 84, 84);
+    font-size: 0.9rem;
+    font-family: normal;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 45%;
+}
+.img-text-2{
+    color: rgb(84, 84, 84);
+    font-size: 0.9rem;
+    font-family: normal;
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 41%;
+    
+}
+.img-text-3{
+    color: rgb(84, 84, 84);
+    font-size: 0.9rem;
+    font-family: normal;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 37%;
+}
+.img-text-4{
+    color: rgb(84, 84, 84);
+    font-size: 0.9rem;
+    font-family: normal;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 31%;
+ }
+.img-1{
+    height: 90%;
+    width: 70%;
+    margin-left: 45%;
+}
+.img-2{
+    height: 90%;
+    width: 70%;
+    margin-left: 40%;
+}
+.img-3{
+    height: 90%;
+    width: 70%;
+    margin-left: 35%;
+}
+.img-4{
+    height: 90%;
+    width: 70%;
+    margin-left: 30%;
 }
