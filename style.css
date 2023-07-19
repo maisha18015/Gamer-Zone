@@ -212,3 +212,52 @@ main{
     width: 70%;
     margin-left: 30%;
 }
+
+/* button section styles */
+
+.btn-section{
+    margin : 150px 0 150px;
+
+}
+.img-section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%
+    /* margin-left: 20%; */
+
+}
+.primary-btn a{
+    display: flex;
+    text-decoration: none;
+
+}
+.primary-btn{
+    width: 250px;
+    height: 80px;
+    border-radius: 50px;
+    background: #ffff;
+    display: flex;
+    border: none;
+}
+.primary-btn a:hover{
+    color: #C07F00;
+    border: #C07F00 solid 2px;
+    border-radius: 50px;
+    width: 250px;
+    height: 80px;
+}
+.btn-text{
+    margin-left: 5%;
+    margin-top: 13%;
+
+}
+.img-section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%
+    margin-left: 5%;
+    margin-top: 3%;
+
+}
