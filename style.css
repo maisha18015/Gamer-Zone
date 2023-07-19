@@ -20,7 +20,7 @@ nav{
     display: flex;
     justify-content: space-between;
     margin: 0 200px;
-    padding-top: 30px;
+    padding: 30px;
 
 }
 .nav-title-with-frame{
@@ -69,14 +69,14 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
-
+/* banner section styles */
+.banner{
+      height: 80vh;
+}
 .banner-contant{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-bottom: 40% ;
-    height: 100vh;
-  
+    justify-content: space-between;  
 }
 .banner-title{
     font-size: 2.5rem;
@@ -127,23 +127,4 @@ main{
 }
 .fa-user-group{
     color: #C07F00;
-}
-
-
-/* responsive section */
-@media screen and (max-width: 576px){
-    .banner-contant{
-        flex-direction: column;
-    }
-    .banner-img{
-      width: 20%;
-      margin-right: 70%;
-      height: 10%;
-    }
-    .banner-contanter{
-        text-align: center;
-        align-items: center;
-        margin-left: 20%;
-    }
-
 }
